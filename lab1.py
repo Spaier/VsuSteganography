@@ -6,9 +6,7 @@
 from typing import *
 import random
 
-from PIL import Image, ImageChops
-
-import numpy as np
+from PIL import Image
 
 from str_to_bit import *
 from metrics import *

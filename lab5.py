@@ -7,10 +7,9 @@
 from typing import *
 import random
 
-from PIL import Image, ImageChops
+from PIL import Image
 
 from scipy.fftpack import dct, idct
-import numpy as np
 
 from str_to_bit import *
 from metrics import *
