@@ -56,7 +56,7 @@ img_with_message.save('out1.png')
 
 message = lsb_decode(img_original, img_with_message)
 print(message[:len(data)])
-
+#%%
 print(f'nmse = {nmse(img_original, img_with_message, 0)}')
-print(f'mse = {mse(img_original, img_with_message)}')
+print(f'mse = {mse(img_original, img_with_message, 0)}')
 print(f'lmse = {lmse(img_original, img_with_message)}')
